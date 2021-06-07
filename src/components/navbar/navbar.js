@@ -21,7 +21,7 @@ function Navbar({acao}) {
                 <li> <a href="#"> Carreiras </a></li>
                 <li> <a href="#"> Ajuda </a></li>
                 <div className="btn">
-                <li > <button class="req" href="#" onClick={ClickMe}>Peça o seu</button></li>
+                <li > <button className="req" href="#" onClick={ClickMe}>Peça o seu</button></li>
                 </div>
             </ul>
             </div>
