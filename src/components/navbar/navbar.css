@@ -1,0 +1,94 @@
+
+
+.NavHeader {
+    z-index: 10;
+    background-color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    border-top: 0.5px solid #ccc;
+    width: 100%;
+}
+.NavHeader2 {
+    transition: all .6s ease-in-out;
+    background-color: rgb(152, 227, 237);
+    z-index: 10;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    border-top: 0.5px solid #ccc;
+    width: 100%;
+    
+}
+
+.NavLogo{
+    margin-left: 30px;
+    margin-bottom:  0px;
+}
+
+.NavLogo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.NavLogo li{
+    list-style: none;
+    justify-content: center;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    
+    
+}
+.NavLogo li a{
+    text-decoration: none;
+}
+.NavLogo img {
+    height: 50px;
+    width: 50px;
+}
+.Menu{
+    margin-right: 20px;
+    
+}
+
+.Menu ul {
+    display: flex;
+}
+
+.Menu li{
+    list-style: none;
+    margin-left: 30px;
+
+    
+    
+    
+}
+
+.Menu li a {
+    color: #274a91;
+    font-weight: bold;
+    text-decoration: wavy;
+   
+}
+
+.btn button{    
+
+    margin-left: 20px;
+    width: 130px;
+    height: 25px;
+    background-color:#B1DBF1;
+    color: #000000;
+    border-radius: 10px;
+    align-content: flex-end;
+    border:none;
+
+}
+
+
+.Menu li { transition: all .2s ease-in-out; }
+.Menu li:hover { transform: scale(1.3); }
